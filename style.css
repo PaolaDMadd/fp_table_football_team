@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat&display=swap');
+
+:root{
+    --font-title: 'Lato', sans-serif;
+    --font-content: 'Montserrat', sans-serif;
+}
+
+body{
+font-family: var(--font-content);
+}
+
+#Main-Title{
+    font-family: var(--font-title);
+    text-align: center;
+    color: lightblue;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+.content {
+    text-align: justify;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(216, 213, 213);
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.active {
+    margin: 20px; 
+   
+}
+#table1 {
+    background-color: lightblue;
+    width: 50%;
+    margin: auto;
+
+}
+td {
+    text-align:center;
+    border: 1px solid black; 
+}
+th {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: lightblue;
+    height: 40px;
+    width: 100%;
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+}
+.social {
+    vertical-align: middle;
+}
+
+figure{
+    width:50%;
+    margin:20px auto;
+    text-align: center;
+}
